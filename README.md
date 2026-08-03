@@ -8,7 +8,7 @@
 [![Python versions](https://img.shields.io/pypi/pyversions/create-github-repo.svg)](https://pypi.org/project/create-github-repo/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-✨ A CLI tool to create GitHub repositories from the command line. 🛠️
+✨ **create-github-repo** is a powerful, lightweight **Command Line Interface (CLI)** tool written in **Python** that allows developers to seamlessly **create GitHub repositories** directly from their terminal. Automate your workflow, easily set descriptions, and manage repository privacy with this easy-to-use developer productivity tool. 🛠️
 
 ## 📦 Installation
 
