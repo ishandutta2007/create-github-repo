@@ -4,7 +4,7 @@
   <img src="assets/banner.svg" alt="create-github-repo Banner" width="100%">
 </p>
 
-[![PyPI version](https://img.shields.io/pypi/v/create-github-repo.svg)](https://pypi.org/project/create-github-repo/)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![PyPI version](https://img.shields.io/pypi/v/create-github-repo.svg)](https://pypi.org/project/create-github-repo/)
 [![Python versions](https://img.shields.io/pypi/pyversions/create-github-repo.svg)](https://pypi.org/project/create-github-repo/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
