@@ -1,4 +1,4 @@
-# create-github-repo
+# 🚀 create-github-repo
 
 <p align="center">
   <img src="assets/banner.svg" alt="create-github-repo Banner" width="100%">
@@ -8,15 +8,15 @@
 [![Python versions](https://img.shields.io/pypi/pyversions/create-github-repo.svg)](https://pypi.org/project/create-github-repo/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A CLI tool to create GitHub repositories from the command line.
+✨ A CLI tool to create GitHub repositories from the command line. 🛠️
 
-## Installation
+## 📦 Installation
 
 ```bash
 pip install create-github-repo
 ```
 
-## Quick Start
+## ⚡ Quick Start
 
 ```bash
 # Create a public repo (uses ADMIN_TOKEN from .env in the current directory)
@@ -32,7 +32,7 @@ create-github-repo my-new-repo -t ghp_your_token_here
 create-github-repo my-new-repo --private
 ```
 
-## Authentication
+## 🔑 Authentication
 
 The tool resolves your GitHub token in this order:
 
@@ -56,7 +56,7 @@ ADMIN_TOKEN=github_pat_xxxxxxxxxxxxxxxxxxxx
 3. Under **Repository permissions**, set **Administration** to **Read and write**.
 4. Click **Generate token** and copy the value into your `.env` file.
 
-## Usage
+## 💻 Usage
 
 ```
 usage: create-github-repo [-h] [-d DESCRIPTION] [-t TOKEN] [--private] [-V] name
@@ -75,7 +75,7 @@ options:
   -V, --version         show program's version number and exit
 ```
 
-## Examples
+## 💡 Examples
 
 ```bash
 # Minimal — just a repo name
@@ -100,7 +100,7 @@ On error:
 ❌ Validation failed (HTTP 422): name already exists on this account
 ```
 
-## Development
+## 🛠️ Development
 
 ```bash
 # Clone the repo
@@ -115,7 +115,7 @@ pip install pytest
 pytest -v
 ```
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 create-github-repo/
@@ -136,6 +136,6 @@ create-github-repo/
 └── README.md
 ```
 
-## License
+## 📄 License
 
 [MIT](LICENSE) © Ishan Dutta
