@@ -20,7 +20,10 @@ class TestCLISuccess:
 
     @patch(
         "create_github_repo.cli.create_repository",
-        return_value=(True, "Repository created successfully: https://github.com/user/my-repo.git"),
+        return_value=(
+            True,
+            "Repository created successfully: https://github.com/user/my-repo.git",
+        ),
     )
     @patch("create_github_repo.cli.resolve_token", return_value="fake-token")
     def test_success_exit_code(self, _mock_resolve, _mock_create):
@@ -28,7 +31,10 @@ class TestCLISuccess:
 
     @patch(
         "create_github_repo.cli.create_repository",
-        return_value=(True, "Repository created successfully: https://github.com/user/my-repo.git"),
+        return_value=(
+            True,
+            "Repository created successfully: https://github.com/user/my-repo.git",
+        ),
     )
     @patch("create_github_repo.cli.resolve_token", return_value="fake-token")
     def test_description_forwarded(self, _mock_resolve, mock_create):

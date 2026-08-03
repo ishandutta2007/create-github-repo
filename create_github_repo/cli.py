@@ -16,7 +16,7 @@ def build_parser() -> argparse.ArgumentParser:
         epilog=(
             "Examples:\n"
             "  create-github-repo my-new-repo\n"
-            "  create-github-repo my-new-repo -d \"A cool project\"\n"
+            '  create-github-repo my-new-repo -d "A cool project"\n'
             '  create-github-repo my-new-repo -d "A cool project" -t ghp_xxxx\n'
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,

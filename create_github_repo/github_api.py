@@ -60,9 +60,7 @@ def create_repository(
         error_body = response.json()
         errors = error_body.get("errors", [])
         if errors:
-            details = "; ".join(
-                e.get("message", str(e)) for e in errors
-            )
+            details = "; ".join(e.get("message", str(e)) for e in errors)
         else:
             details = error_body.get("message", response.text)
     except ValueError:
