@@ -1,5 +1,9 @@
 # create-github-repo
 
+<p align="center">
+  <img src="assets/banner.svg" alt="create-github-repo Banner" width="100%">
+</p>
+
 [![PyPI version](https://img.shields.io/pypi/v/create-github-repo.svg)](https://pypi.org/project/create-github-repo/)
 [![Python versions](https://img.shields.io/pypi/pyversions/create-github-repo.svg)](https://pypi.org/project/create-github-repo/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

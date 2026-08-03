@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .text { 
+      font-family: 'Fira Code', 'Courier New', Courier, monospace; 
+      font-size: 26px; 
+      fill: #a9dc76;
+    }
+    .prompt { fill: #ff6188; }
+    .args { fill: #ffd866; }
+    .cursor {
+      animation: blink 1s step-end infinite;
+      fill: #fcfcfa;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .fade-in {
+      animation: fadeIn 6s infinite;
+    }
+    @keyframes fadeIn {
+      0%, 40% { opacity: 0; }
+      45%, 90% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    .fade-out-cursor {
+      animation: fadeOutCursor 6s infinite;
+    }
+    @keyframes fadeOutCursor {
+      0%, 40% { opacity: 1; }
+      45%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <rect width="800" height="250" rx="12" fill="url(#grad)" stroke="#333" stroke-width="2"/>
+  
+  <!-- Terminal window dots -->
+  <circle cx="25" cy="25" r="8" fill="#FF5F56" />
+  <circle cx="50" cy="25" r="8" fill="#FFBD2E" />
+  <circle cx="75" cy="25" r="8" fill="#27C93F" />
+  
+  <!-- Title / Window bar -->
+  <text x="400" y="30" fill="#888" font-family="sans-serif" font-size="14" text-anchor="middle">create-github-repo</text>
+  <path d="M 0 45 L 800 45" stroke="#333" stroke-width="2" />
+
+  <!-- Command Line -->
+  <text x="30" y="100" class="text">
+    <tspan class="prompt">$</tspan> <tspan fill="#a9dc76">create-github-repo</tspan> <tspan class="args">my-awesome-app</tspan>
+  </text>
+  <rect x="580" y="75" width="14" height="30" class="cursor fade-out-cursor" />
+
+  <!-- Execution Output -->
+  <g class="fade-in">
+    <text x="30" y="160" font-family="'Fira Code', 'Courier New', monospace" font-size="22" fill="#ab9df2">
+      🚀 Creating GitHub repository 'my-awesome-app'...
+    </text>
+    <text x="30" y="200" font-family="'Fira Code', 'Courier New', monospace" font-size="20" fill="#a9dc76" filter="url(#glow)">
+      ✅ Repository created successfully: https://github.com/user/my-awesome-app.git
+    </text>
+  </g>
+</svg>
