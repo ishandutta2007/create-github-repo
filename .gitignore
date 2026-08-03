@@ -1,7 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
 *.bak
 *.bk
-*.env
 .cache
-__pycache__/
 contributors.txt
 temp_repo_clone

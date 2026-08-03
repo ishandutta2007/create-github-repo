@@ -1,0 +1,5 @@
+I want to build a CLI which is a python package to be hosted on PyPI.
+The CLI should help user create a github repo from command line. It should receive repo name(mandatory), repo description(optional) and github token(optional) as arguments.
+If no repo description is provided, it should keep that field empty.
+If no github token is provided, it should fall back to .env file in current folder.(You can assume the ADMIN_TOKEN required for github API is present in .env file in current project folder)
+Also add documentation .
