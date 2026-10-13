@@ -147,6 +147,18 @@ create-github-repo/
 </a>
 </div>
 
+## 💖 Support
+
+Thank you for using and supporting **create-github-repo**! If you find this project useful, please consider showing your support:
+
+- ⭐ **Star** this repository to show your appreciation and help others discover it.
+- 🍴 **Fork** the repository and contribute improvements, bug fixes, or new features.
+- 📢 **Share** the project with your friends, colleagues, and developer communities.
+- ☕ **Buy me a coffee**: Support open-source maintenance and future developments via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor%20%2F%20Buy%20Me%20A%20Coffee-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" /></a>
+
 ## 📄 License
 
 [MIT](LICENSE) © Ishan Dutta
+
